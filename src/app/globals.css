@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text-scale: 1;
+    --font-base: 18px;
+    --color-pran-dark: #0A363B;
+    --color-pran-teal: #0D9488;
+    --color-pran-turquoise: #14B8A6;
+    --color-pran-bg: #F2F9F9;
+  }
+
+  html {
+    font-size: var(--font-base);
+    background-color: var(--color-pran-bg);
+    color: #0F172A;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', 'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+    background-color: var(--color-pran-bg);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+
+  /* Elderly accessibility touch sizes */
+  button, a, input, select {
+    min-height: 48px;
+    touch-action: manipulation;
+  }
+
+  /* Text scale variants */
+  body.text-size-normal {
+    --font-base: 18px;
+  }
+  body.text-size-large {
+    --font-base: 20px;
+  }
+  body.text-size-extralarge {
+    --font-base: 23px;
+  }
+}
+
+/* Dual-channel high-visibility badges */
+.demo-badge {
+  background-color: #FEF08A;
+  color: #713F12;
+  border: 1px solid #EAB308;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Card glassmorphism subtle accents */
+.pran-card {
+  background: #FFFFFF;
+  border-radius: 24px;
+  border: 1px solid #D6EDE8;
+  box-shadow: 0 4px 20px -2px rgba(10, 54, 59, 0.08), 0 2px 6px -1px rgba(10, 54, 59, 0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.pran-card:active {
+  transform: scale(0.99);
+}
+
+/* Primary CTA styling */
+.btn-primary {
+  min-height: 56px;
+  background: linear-gradient(135deg, #0A363B 0%, #0E525A 100%);
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  box-shadow: 0 2px 8px 0 rgba(14, 82, 90, 0.25);
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
+}
+
+/* Leaflet container fixes */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  border-radius: 16px;
+}

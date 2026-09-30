@@ -1,0 +1,28 @@
+{
+  "citations": [
+    {
+      "id": "who-substandard-2017",
+      "claim": "1 in 10 medical products in developing countries is estimated to be substandard or falsified",
+      "source": "World Health Organization (WHO)",
+      "year": 2017,
+      "url": "https://www.who.int/news/item/28-11-2017-1-in-10-medical-products-in-developing-countries-is-substandard-or-falsified",
+      "quote": "According to WHO (2017), an estimated 1 in 10 medical products in low- and middle-income countries is substandard or falsified."
+    },
+    {
+      "id": "cdsco-nsdq-monthly",
+      "claim": "Monthly drug alert list of Not of Standard Quality (NSQ) drugs released by CDSCO",
+      "source": "Central Drugs Standard Control Organisation (CDSCO), Government of India",
+      "year": 2024,
+      "url": "https://cdsco.gov.in",
+      "quote": "According to CDSCO Monthly Drug Alert notices, regulatory authorities routinely inspect and flag batches failing standard quality parameters."
+    },
+    {
+      "id": "india-elderly-mohfw-2021",
+      "claim": "Elderly population projections and chronic disease burden in India",
+      "source": "Longitudinal Ageing Study in India (LASI) Wave-1, MoHFW",
+      "year": 2021,
+      "url": "https://www.mohfw.gov.in",
+      "quote": "According to LASI Wave-1 (MoHFW, 2021), a substantial proportion of elderly Indians manage two or more chronic health conditions simultaneously."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+# Node dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Next.js build output & artifacts
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables & secrets (keep .env.example safe)
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+!.env.example
+
+# Local SQLite databases (created and seeded automatically on first run)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+dev.db
+
+# Test coverage & reports
+coverage/
+.nyc_output/
+
+# Logs & debugging
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS metadata & temporary files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# Vercel & Turbo build cache
+.vercel/
+.turbo/
+
+# AI IDE / Antigravity metadata (if any)
+.gemini/
+.agents/
+brain/

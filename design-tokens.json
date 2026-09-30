@@ -1,0 +1,133 @@
+{
+  "name": "PranCare Design System Tokens",
+  "version": "1.0.0",
+  "source": "Extracted from PranCare 3-phone UI mockup and official logo",
+  "colors": {
+    "primary": {
+      "darkTeal": "#0A363B",
+      "deepTeal": "#0E525A",
+      "teal": "#0D9488",
+      "turquoise": "#14B8A6",
+      "lightMint": "#E6F6F5",
+      "lightestBg": "#F2F9F9"
+    },
+    "brand": {
+      "pran": "#0A363B",
+      "care": "#14B8A6",
+      "shieldBorder": "#126068",
+      "shieldFill": "#0A363B",
+      "accentCyan": "#0EA5A0"
+    },
+    "surfaces": {
+      "cardDark": "#114C53",
+      "cardTeal": "#16999F",
+      "cardMint": "#DEF7F4",
+      "cardWhite": "#FFFFFF",
+      "cardLightGray": "#F8FAFB",
+      "cardBorder": "#D6EDE8"
+    },
+    "status": {
+      "verified": {
+        "text": "#166534",
+        "bg": "#DCFCE7",
+        "badge": "#22C55E",
+        "cardBg": "#2E7D47",
+        "border": "#86EFAC"
+      },
+      "needsVerification": {
+        "text": "#9A3412",
+        "bg": "#FEF3C7",
+        "badge": "#F59E0B",
+        "cardBg": "#D97706",
+        "border": "#FCD34D"
+      },
+      "suspicious": {
+        "text": "#991B1B",
+        "bg": "#FEE2E2",
+        "badge": "#EF4444",
+        "cardBg": "#DC2626",
+        "border": "#FCA5A5"
+      },
+      "demo": {
+        "bg": "#FEF08A",
+        "text": "#713F12",
+        "border": "#EAB308"
+      }
+    },
+    "text": {
+      "primary": "#0F172A",
+      "secondary": "#334155",
+      "muted": "#64748B",
+      "inverse": "#FFFFFF",
+      "inverseMuted": "#8BE0DC"
+    }
+  },
+  "typography": {
+    "fontFamily": "Inter, 'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    "fontSizes": {
+      "sm": "15px",
+      "base": "18px",
+      "lg": "20px",
+      "xl": "24px",
+      "2xl": "28px",
+      "3xl": "34px"
+    },
+    "textScale": {
+      "normal": {
+        "body": "18px",
+        "heading": "24px",
+        "title": "30px"
+      },
+      "large": {
+        "body": "20px",
+        "heading": "26px",
+        "title": "34px"
+      },
+      "extraLarge": {
+        "body": "24px",
+        "heading": "30px",
+        "title": "38px"
+      }
+    },
+    "lineHeights": {
+      "tight": "1.25",
+      "normal": "1.5",
+      "relaxed": "1.65"
+    },
+    "fontWeights": {
+      "normal": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700",
+      "extrabold": "800"
+    }
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px",
+    "2xl": "40px"
+  },
+  "radii": {
+    "sm": "8px",
+    "md": "12px",
+    "lg": "16px",
+    "card": "24px",
+    "phone": "44px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "card": "0 4px 20px -2px rgba(10, 54, 59, 0.08), 0 2px 6px -1px rgba(10, 54, 59, 0.04)",
+    "cardHover": "0 10px 25px -3px rgba(10, 54, 59, 0.12), 0 4px 10px -2px rgba(10, 54, 59, 0.06)",
+    "button": "0 2px 8px 0 rgba(14, 82, 90, 0.25)",
+    "modal": "0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1)"
+  },
+  "elderlyFirst": {
+    "minTouchTarget": "48px",
+    "minPrimaryButtonHeight": "56px",
+    "minBodyFontSize": "18px",
+    "highContrast": true
+  }
+}

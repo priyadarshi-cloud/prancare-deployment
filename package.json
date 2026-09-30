@@ -1,0 +1,36 @@
+{
+  "name": "prancare",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PranCare — Protect the Life That Matters Most. Medicine Verification, Family Care & SafeMix Interaction Shield.",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "test": "vitest run",
+    "seed": "node scripts/seed.js",
+    "check-i18n": "node scripts/check-i18n.js"
+  },
+  "dependencies": {
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8",
+    "lucide-react": "^0.453.0",
+    "better-sqlite3": "^11.5.0",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/leaflet": "^1.9.14",
+    "@types/node": "^20.17.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.3"
+  }
+}
